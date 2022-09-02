@@ -1,0 +1,19 @@
+{
+  "name": "ikea-server",
+  "version": "1.0.0",
+  "description": "my ikea server",
+  "main": "index.js",
+  "scripts": {
+    "start": "backpack"
+  },
+  "author": "ana-lazar",
+  "license": "ISC",
+  "dependencies": {
+    "backpack-core": "^0.8.4",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-cors": "^0.0.16",
+    "koa-router": "^10.1.1",
+    "ws": "^8.4.0"
+  }
+}
